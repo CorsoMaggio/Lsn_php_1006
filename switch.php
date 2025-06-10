@@ -1,4 +1,5 @@
 <?php
+
 $role = 'Admin';
 switch ($role) {
     case 'Admin':
