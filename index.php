@@ -8,22 +8,24 @@ if ($age >= MAX) {
 } else {
     echo 'Sono maggiorenne e ho esattamente 18 anni';
 }
-?>
+// --- Esercizio 2---
 
-<?php
 
-const BUDGET = 1000;
-$valore_calcolato = round ($valore_calcolato, 2);
-$cifra = [];
-if ($cifra <= BUDGET) ($cifra / 3) {
-    echo 'Paga in 3 rate da $valore_calcolato';
-} else {
-    echo 'Complimenti, hai 1000 euro';
+const BUDGET = 1000; 
+
+$cifra = 1500;
+
+echo "--- $cifra Euros ---\n";
+if ($cifra > 0 && $cifra <= BUDGET) {
+  
+    $rata = $cifra / 3;
+    $valore_calcolato = round($rata, 2);
+
+    echo "Paga in 3 comode rate da: $valore_calcolato Euro\n";
+    
+
 }
-
-
+else {
+     echo "Complimenti, hai soldi";
+}
 ?>
-
-
-
-
