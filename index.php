@@ -10,5 +10,20 @@ if ($age >= MAX) {
 }
 ?>
 
+<?php
+
+const BUDGET = 1000;
+$valore_calcolato = round ($valore_calcolato, 2);
+$cifra = [];
+if ($cifra <= BUDGET) ($cifra / 3) {
+    echo 'Paga in 3 rate da $valore_calcolato';
+} else {
+    echo 'Complimenti, hai 1000 euro';
+}
+
+
+?>
+
+
 
 
